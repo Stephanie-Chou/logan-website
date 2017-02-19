@@ -1,0 +1,24 @@
+<div>
+  <a id="menu" class="menu"><img src="../assets/images/menu.svg"></a>
+  <div class="site-header">
+    <h2>Logan Wan</h2>
+    <div style="flex-direction: rows; width: 100%">
+      <a target="_blank" href="{{site.linkedin}}"><img class="social-icon" src="../assets/images/linkedin.svg"></a>
+      <a target="_blank" href="{{site.github}}"><img class="social-icon" src="../assets/images/github.svg"></a>
+      <a target="_blank" href="{{site.email}}"><img class="social-icon" src="../assets/images/email.svg"></a>
+      <a target="_blank" href="{{site.instagram}}"><img class="social-icon" src="../assets/images/instagram.svg"></a>
+    </div>
+  </div>
+
+
+  <div class="nav">
+    <a {% if page.url == "/blog/" %} class="active" {% endif %} href="/blog">Blog</a>
+
+    <a {% if page.url == "/portfolio/" %} class="active" {% endif %}class="menu-item" href="/portfolio">Portfolio</a>
+
+    <a {% if page.url == "/resume/" %} class="active" {% endif %} class="menu-item" href="#">Resume</a>
+  </div>
+
+
+
+</div>
