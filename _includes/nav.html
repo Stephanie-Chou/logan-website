@@ -1,5 +1,8 @@
 <div>
-  <a id="menu" class="menu"><img src="../assets/images/menu.svg"></a>
+  <a id="menu-icon" class="menu"><img src="../assets/images/menu.svg"></a>
+
+  <a id="close" class="close"><img src="../assets/images/close.svg"></a>
+
   <div class="site-header">
     <h2>Logan Wan</h2>
     <div style="flex-direction: rows; width: 100%">
@@ -11,13 +14,22 @@
   </div>
 
 
-  <div class="nav">
+  <div id="navigation" class="nav">
     <a {% if page.url == "/blog/" %} class="active" {% endif %} href="/blog">Blog</a>
-
     <a {% if page.url == "/portfolio/" %} class="active" {% endif %}class="menu-item" href="/portfolio">Portfolio</a>
-
     <a {% if page.url == "/resume/" %} class="active" {% endif %} class="menu-item" href="#">Resume</a>
   </div>
+
+  <div id="fullscreen-navigation" >
+    <div class="nav">
+      <a {% if page.url == "/blog/" %} class="active" {% endif %} href="/blog">Blog</a>
+      <a {% if page.url == "/portfolio/" %} class="active" {% endif %}class="menu-item" href="/portfolio">Portfolio</a>
+      <a {% if page.url == "/resume/" %} class="active" {% endif %} class="menu-item" href="#">Resume</a>
+    </div>
+
+  </div>
+
+
 
 
 

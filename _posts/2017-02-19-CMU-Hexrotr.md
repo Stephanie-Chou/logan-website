@@ -3,6 +3,7 @@ layout: post
 title:  "CMU Multimodal Aerial Mapping Hexrotor"
 date:   2017-02-19 17:12:59 -0500
 categories: portfolio
+image: ../assets/images/cmu-hexrotr.jpg
 ---
 
 Lead systems engineer

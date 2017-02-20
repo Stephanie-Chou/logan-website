@@ -3,6 +3,7 @@ layout: post
 title:  "Medtronic Electrosurgical Hardware"
 date:   2017-02-19 17:21:09 -0500
 categories: portfolio
+image: ../assets/images/medtronic.jpg
 ---
 
 Force-controlled laparoscopic surgical tools
